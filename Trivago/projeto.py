@@ -10,7 +10,7 @@ class Projeto(webdriver.Chrome):
     
     def __init__(self, teardown = False):
         self.teardown = teardown        
-        super(Trivago, self).__init__()
+        super(Projeto, self).__init__()
         self.implicitly_wait(15)
         self.maximize_window()
         
